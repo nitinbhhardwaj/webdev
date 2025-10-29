@@ -7,22 +7,33 @@
   <body>
       <form action="#" method="post">
     <h1>Student Details</h1>
-    <label for="name">Your Name:</Label>
-    <input type="text" id="name" name="name placeholder="Enter your name" required><br><br>
-   <label for="Phone number">Phone number</label>                                                                   
-    <input type="tel" name="phone" id="phone"><br><br>
-    <label for="textarea">Any Suggestion</label>
-    <textarea id="suggestion" name="suggestion" row="6" cols="40"></textarea>
+    <label for="Full Name:">Your Name:</Label>
+    <input type="text" id="name" name="name" placeholder= "Enter your full name" required><br><br>
+    <label for="Email:">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+   <label for="Phone number">Password</label> 
+   <input type="password" id="password" name="password" placeholder="Enter your password" required>                                                                  
     <br><br>
-    <select id="Course:" name="class" required>
-    <option value="1"></option>
-    <option value="2">2nd</option><br><br>
-   <label for="Gender">Gender:</label>
+    <label for="Gender">Gender:</label>
     <input type="radio" id=gender name=gender value="Male">Male<input type="radio" name="female"id="female" value="female">Female
     <br><br>
+    <select id="Course:" name="class" required>
+    <option value="1">--Select Course--</option>
+    <option value="2">Btech</option>
+    <option value="3">Mtech</option>
+    <option value="4">MBA</option>
+    <option value="5">BBA</option>
+    <option value="6">BCA</option>
+    <option value="7">MCA</option>
+    </select>
+    <br><br>
+    <label for="textarea">Any Suggestion</label><br>
+    <textarea id="suggestion" name="suggestion" row="6" cols="40"></textarea>
+    <br><br>
+    
     <input type="button" value="Submit">
     <input type="button" value="cancel">
-    
+   
  
   </body>
 </html>
