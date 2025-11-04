@@ -9,14 +9,7 @@
                 background-color:black;
                 font-family:'Courier New', Courier, monospace;
                 font-size:30px;
-                button {
-    background-color: #0066cc;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
+                button            
 }
 
             }
