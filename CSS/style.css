@@ -1,19 +1,22 @@
+body {
+    background-color: black;
+}
 h1 {
     color: aqua;
     text-align: center;
-    background-color: brown;
+    background-color: grey;
 }
 
 p {
     color: yellow;
     text-align: center;
-    background-color: black;
+    background-color:seagreen;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
 }
 
 button {
-    background-color:#f1c40f;
+    background-color:yellowgreen;
     color: white;
     border: none;
     padding: 12px 24px;
