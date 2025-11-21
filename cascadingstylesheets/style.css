@@ -1,0 +1,32 @@
+/* h1{
+    color:green;
+}
+p{
+    color:rgb(94, 153, 81);
+}
+button{
+    color:rgb(3, 252, 69);
+    background-color:rgb(32, 137, 115);
+}
+body{
+    background-color:#cbeef3;
+}
+ */
+ */Universal Selector*/
+*{
+    color:grey;
+    background-color:darkgrey
+}
+/* Element Selector */
+h1{
+    color:green;
+}
+/*Id Selector */
+#paragraph {
+    color:rgb(94, 153, 81);
+
+}
+/*Class Selector*/
+.newheading{
+    color:blue;
+}
