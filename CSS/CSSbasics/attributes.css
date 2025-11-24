@@ -1,0 +1,33 @@
+p{
+    text-align:center;
+    color:rgb(116, 116, 227);
+    font-weight:bold;
+    font-family:'Bajooka','Arial Narrow', Arial, sans-serif
+}
+.heading{
+    text-align:end;
+    background-color:lightgrey;
+    color:darkblue;
+    text-decoration:overline;
+    font-weight:900;
+}
+button{
+    color:rgb(224, 17, 17);
+    background-color:rgb(255, 192, 203);
+}
+body{
+    background-color: #ffff00;
+}
+#one{
+    font-size:30px;
+}
+#two{
+    font-size:40px;
+}
+#three{
+    font-size:50px;
+}
+#lineheight{
+    line-height:20px;
+    text-transform: capitalize;
+}
