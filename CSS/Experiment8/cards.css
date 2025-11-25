@@ -32,7 +32,15 @@ margin:20px;
     height:70px;
     line-height:70px;
     margin:0 auto 15px;
+    overflow: hidden;
 }
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%; /* adjust this value */
+}
+
 h3{
     margin-bottom: 5px;
 }
