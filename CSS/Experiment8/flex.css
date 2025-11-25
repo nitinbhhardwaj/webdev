@@ -1,5 +1,6 @@
 .container{
     display:flex;
+    flex-direction: column;
     background-color:#fff;
     padding: 10px;
     border: 1px solid #ccc;
@@ -14,6 +15,6 @@
 }
 .box1{ background-color : #2196F3}
 .box2{ background-color :yellowgreen}
-.box3{ background-color : #2196F3}
+.box3{ background-color : blueviolet}
 .box4{ background-color : rgb(3, 35, 35)}
 .box5{ background-color : #063357}
