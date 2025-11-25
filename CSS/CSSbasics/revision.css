@@ -1,0 +1,37 @@
+*{
+    margin:0%;
+    padding : 0%;
+}
+html{
+    height:100%;
+    width:100;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+h4{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.box1{
+    color:aliceblue;
+    background-color:grey;
+    border-style:groove;
+    border-width: 3px;
+    width:200px;
+    height:200px;
+    display:flex;
+    border-radius:50%;
+}
+#box2{
+    display:flex;
+    color:blue;
+    background-color:rgb(130, 197, 220);
+    border-style:dashed;
+    border-width : 3px;
+    width:200px;
+    height:200px;
+}
