@@ -1,0 +1,16 @@
+div{
+    height: 60px;
+    background-color: #0f1111;
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin:100px;
+}
+#amazon{
+    color:#f08804;
+    font-size: 25px;
+}
+button{
+    background-color: #f08804;
+}
