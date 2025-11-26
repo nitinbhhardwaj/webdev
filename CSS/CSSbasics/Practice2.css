@@ -41,3 +41,8 @@ button{
     color:white;
     text-align: center;
 }
+img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
