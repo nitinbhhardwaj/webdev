@@ -1,6 +1,6 @@
 *{
     padding:0;
-    maargin: 0;
+    margin: 0;
 }
 div{
     height: 60px;
@@ -9,7 +9,7 @@ div{
 a{
     color:white;
     text-decoration: none;
-    margin:100px;
+    margin-right:100px;
 }
 #amazon{
     color:#f08804;
