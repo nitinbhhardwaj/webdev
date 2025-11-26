@@ -1,3 +1,7 @@
+*{
+    padding:0;
+    maargin: 0;
+}
 div{
     height: 60px;
     background-color: #0f1111;
