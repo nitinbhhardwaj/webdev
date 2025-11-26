@@ -38,8 +38,7 @@ h1 {
     background: #fff;  /* Prevent black background */
     padding: 5px;      /* Optional */
 }
-
-
 .product-card:hover {
     transform: scale(1.05);
-    box-shadow:
+    box-shadow:0.1em
+}
