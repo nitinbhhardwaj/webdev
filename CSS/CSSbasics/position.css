@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    height: 100px;
+    width:100px;
+    background-color: rgb(199, 165, 121);
+    border:2px solid black;
+    display:inline-block;
+}
+#Box1{
+    position:static;
+    background-color: aqua;
+}
+#Box2{
+    position: relative;
+    top:20px;
+    left:10px;
+    background-color: blue;
+}
+#Box3{
+    position:absolute;
+    background-color: blueviolet;
+}
+#Box4{
+    background-color: cornflowerblue;
+}
