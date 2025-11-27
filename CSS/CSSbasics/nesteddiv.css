@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+#outer{
+    background-color:rgba(0,0,225,0.1);
+    height:500px;
+    width:500px;
+    font-size: 10px;;
+}
+#inner{
+    background-color:rgba(0,0,225,0.3);
+    height: 300px;
+    width:50%;
+    margin-left:20% ;
+    font-size: 2em;
+}
+#ab{
+     background-color:rgba(0,0,225,0.5);
+    height:20vh;
+    margin-left:20% ;
+    font-size: 2em;
+    width: 5em;
+}
+    
