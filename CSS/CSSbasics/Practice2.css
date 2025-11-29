@@ -21,7 +21,7 @@ button{
     display:inline-block;
     height:100px;
     width:100px;
-    border:2px;
+    border:2px
 }
 #box2{
     background-color:rgba(0,0,225,0.4) ;
