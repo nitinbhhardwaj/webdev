@@ -4,7 +4,7 @@
 }
 div{
     height: 60px;
-    background-color: #0f1111;
+    background-color: rgb(12, 70, 12);
 }
 a{
     color:white;
@@ -17,4 +17,8 @@ a{
 }
 button{
     background-color: #f08804;
+}
+img {
+    height:40px;
+    align-items: center;
 }
