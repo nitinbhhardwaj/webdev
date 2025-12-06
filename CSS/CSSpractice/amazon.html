@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ShopClone — E‑commerce Mockup</title>
+  <style>
+    :root{
+      --primary:#ff9900;
+      --dark:#131921;
+      --muted:#f3f4f6;
+      --card-bg:#ffffff;
+      --text:#111;
+      --max-w:1200px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing: border-box}
+    body{margin:0;background:var(--muted);color:var(--text);}    
+    .container{max-width:var(--max-w);margin:0 auto;padding:0 16px}
+
+    /* FLEX + GRID REWRITE */
+
+    header.site-header{background:var(--dark);color:#fff;display:flex;flex-direction:column;gap:10px;padding:10px 0}
+
+    .topbar{display:flex;align-items:center;justify-content:space-between}
+    .logo{font-weight:800;color:var(--primary);font-size:22px}
+    .logo span{color:#fff}
+
+    .search-row{display:flex;gap:10px;margin-top:6px}
+    .search{flex:1;display:flex}
+    .search input{flex:1;padding:10px;border:none}
+    .search button{padding:10px 16px;background:var(--primary);border:none;font-weight:700;cursor:pointer}
+
+    nav.primary{background:#232f3b;color:#fff}
+    nav.primary ul{display:flex;gap:20px;list-style:none;margin:0;padding:10px 0}
+
+    /* HERO: FLEX */
+    .hero{display:flex;gap:20px;align-items:center;padding:20px 0}
+    .hero .banner{flex:2;background:#ffe7b3;padding:25px;border-radius:6px}
+    .hero .side{flex:1;display:flex;flex-direction:column;gap:12px}
+
+    /* PRODUCT GRID */
+    .products{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px;padding:20px 0}
+    .card{background:#fff;border-radius:6px;padding:12px;display:flex;flex-direction:column;gap:10px}
+    .card img{width:100%;height:160px;object-fit:contain}
+
+    footer{text-align:center;padding:20px 0;color:#444}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <div class="logo"><span>Shop</span>Clone</div>
+      <div class="location">Deliver to <strong>India</strong></div>
+      <div style="flex:1"></div>
+      <div class="actions">
+        <div class="action">Hello, Sign in</div>
+        <div class="action">Orders</div>
+        <div class="action">Cart (<span id="cart-count">0</span>)</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="search-row">
+        <div class="search">
+          <select aria-label="All"> 
+            <option>All</option>
+            <option>Books</option>
+            <option>Electronics</option>
+          </select>
+          <input id="search-input" type="search" placeholder="Search products, brands and more" />
+          <button id="search-btn">Search</button>
+        </div>
+      </div>
+    </div>
+    <nav class="primary">
+      <div class="container">
+        <ul>
+          <li><a href="#">Today's Deals</a></li>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">Gift Cards</a></li>
+          <li><a href="#">Sell</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="banner">
+        <h1>Big Savings, Everyday</h1>
+        <p>Discover deals across electronics, home, fashion and more — curated for you.</p>
+        <a class="cta" href="#">Shop today's deals</a>
+      </div>
+      <div class="side">
+        <div class="deal">Deal of the day<br><strong>Up to 50% off</strong></div>
+        <div class="deal">Prime-style Shipping<br><strong>Fast & free</strong></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured products</h2>
+      <div class="products" id="product-grid">
+        <!-- product cards injected by JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <p>© 2025 ShopClone — demo e‑commerce layout. This is an original mockup for educational purposes and not the actual site.</p>
+  </footer>
+
+  <script>
+    // sample products (placeholder data)
+    const products = [
+      {id:1,title:"Wireless Headphones",price:1199,image:"https://via.placeholder.com/300x200?text=Headphones",rating:4.3},
+      {id:2,title:"Smartphone 128GB",price:15999,image:"https://via.placeholder.com/300x200?text=Phone",rating:4.6},
+      {id:3,title:"Stainless Steel Bottle",price:499,image:"https://via.placeholder.com/300x200?text=Bottle",rating:4.1},
+      {id:4,title:"Mechanical Keyboard",price:3499,image:"https://via.placeholder.com/300x200?text=Keyboard",rating:4.4},
+      {id:5,title:"LED Desk Lamp",price:899,image:"https://via.placeholder.com/300x200?text=Lamp",rating:4.2},
+      {id:6,title:"Running Shoes",price:2599,image:"https://via.placeholder.com/300x200?text=Shoes",rating:4.0},
+    ];
+
+    const grid = document.getElementById('product-grid');
+    const cartCount = document.getElementById('cart-count');
+    let count = 0;
+
+    function renderProducts(list){
+      grid.innerHTML = '';
+      list.forEach(p=>{
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <img src="${p.image}" alt="${p.title}">
+          <div class="title">${p.title}</div>
+          <div class="rating">⭐ ${p.rating}</div>
+          <div class="price">₹ ${p.price}</div>
+          <button class="btn" data-id="${p.id}">Add to cart</button>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    renderProducts(products);
+
+    // simple cart interaction
+    grid.addEventListener('click', e=>{
+      if(e.target.matches('button.btn')){
+        count++;
+        cartCount.textContent = count;
+        e.target.textContent = 'Added';
+        e.target.disabled = true;
+      }
+    });
+
+    // search
+    document.getElementById('search-btn').addEventListener('click', ()=>{
+      const q = document.getElementById('search-input').value.trim().toLowerCase();
+      if(!q) return renderProducts(products);
+      const filtered = products.filter(p=> p.title.toLowerCase().includes(q));
+      renderProducts(filtered);
+    });
+
+    // allow Enter key
+    document.getElementById('search-input').addEventListener('keydown', e=>{
+      if(e.key === 'Enter') document.getElementById('search-btn').click();
+    });
+  </script>
+</body>
+</html>
