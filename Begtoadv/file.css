@@ -2,7 +2,6 @@ div{
     border:5px solid black;
     width:100px;
     height:100px;
-    text-align:right;
     background-color: pink;
-
+padding-left:20px;
 }
