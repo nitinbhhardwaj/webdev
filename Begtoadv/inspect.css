@@ -11,4 +11,5 @@ h1{
     border-style:double;
     border-color:blue;
     text-align:center;
+    /* Here text align property works for the defined height and width */
 }
