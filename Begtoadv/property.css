@@ -1,4 +1,6 @@
 p{
     text-align:end;
-    text-decoration:underline;
+    /* text-decoration:underline; */
+    /* text-decoration:overline; */
+    text-decoration:line-through;
 }
