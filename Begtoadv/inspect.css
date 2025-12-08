@@ -8,6 +8,7 @@ h1{
     width:200px;
     background-color:bisque;
     border:10px double blue;
+    border-radius:20px;
     /* border-width:5px;
     border-style:double;
     border-color:blue;
