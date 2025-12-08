@@ -6,6 +6,7 @@
 } */
  h1,h2,h3{
     color:red;
+    text-align:center;
  }
 button{
     background-color:green;
