@@ -10,3 +10,9 @@ a{
     font-weight:bold;
     /* font weight extend from 100 to 900 */
 }
+#new{
+    text-align:center;
+    text-decoration:underline;
+    font-family:'sans-serif';
+    font-weight:bold;
+}
