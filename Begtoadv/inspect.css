@@ -4,7 +4,10 @@ div{
     width:300px;
 }
 h1{
-    height:100px;
-    width:100px;
+    height:200px;
+    width:200px;
     background-color:bisque;
+    border-width:2px;
+    border-style:dotted;
+    border-color:blue;
 }
