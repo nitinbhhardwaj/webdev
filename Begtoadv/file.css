@@ -3,5 +3,5 @@ div{
     width:100px;
     height:100px;
     background-color: pink;
-padding-left:20px;
+    padding:50px 50px 50px 50px;
 }
