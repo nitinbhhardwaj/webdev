@@ -2,8 +2,10 @@
     background-color: #0f1111;
     height:60px;
 }
+a{
+    text-decoration:none;
+}
 #amazon{
     color:#f08804;
     font-size:25px;
-    text-decoration: none;
 }
