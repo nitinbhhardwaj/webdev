@@ -7,4 +7,5 @@ p{
 a{
     text-decoration:none;
     font-weight:bold;
+    /* font weight extend from 100 to 900 */
 }
