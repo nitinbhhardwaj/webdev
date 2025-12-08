@@ -4,3 +4,6 @@ p{
     /* text-decoration:overline; */
     text-decoration:line-through;
 }
+a{
+    text-decoration:none;
+}
