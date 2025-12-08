@@ -1,6 +1,8 @@
 div{
     border:5px solid black;
-    width:250px;
-    height:250px;
+    width:100px;
+    height:100px;
     text-align:right;
+    background-color: pink;
+    border-radius:10px;
 }
