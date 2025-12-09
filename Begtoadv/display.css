@@ -1,11 +1,9 @@
 div{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width:100px;
+    
+    /* width:100px;
     height:100px;
     margin:25px;
-    padding:25px;
+    padding:25px; */
 }
 #div1{
     display:inline;
