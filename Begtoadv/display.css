@@ -1,12 +1,15 @@
 #div1{
     display:inline;
+    background-color:black;
 }
 button{
     display:block;
 }
 #div2{
     display:block;
+    background-color:blue;
 }
 #div3{
     display:inline-block;
+    background-color:brown;
 }
