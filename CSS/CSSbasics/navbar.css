@@ -1,7 +1,9 @@
-/* img{
-    width: 100%;
-    height:auto;
-} */
+img{
+    width: 60px;
+    height:30px;
+    padding-top:3px;
+}
 #main{
     background-color:rgb(26, 99, 26) ;
+    height:40px;
 }
