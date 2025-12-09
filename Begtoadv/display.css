@@ -1,12 +1,13 @@
 div{
-    
+    display:flex;
+    display:block;
     /* width:100px;
     height:100px;
     margin:25px;
     padding:25px; */
 }
 #div1{
-    display:inline;
+    /* display:inline; */
     background-color:green;
 }
 button{
@@ -17,6 +18,6 @@ button{
     background-color:blue;
 }
 #div3{
-    display:inline-block;
+    /* display:inline-block; */
     background-color:brown;
 }
