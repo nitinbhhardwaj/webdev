@@ -1,6 +1,9 @@
 #div1{
     /* display:inline; */
 }
+button{
+    display:block;
+}
 #div2{
     display:block;
 }
