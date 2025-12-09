@@ -1,3 +1,9 @@
 #div1{
     display:inline;
 }
+#div2{
+    display:block;
+}
+#div3{
+    display:inline-block;
+}
