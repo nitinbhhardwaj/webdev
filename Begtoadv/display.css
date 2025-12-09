@@ -1,3 +1,7 @@
+div{
+    width:100px;
+    height:100px;
+}
 #div1{
     display:inline;
     background-color:green;
