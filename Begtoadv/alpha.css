@@ -2,6 +2,11 @@
     padding:0;
     margin:0;
 }
+{
+    background-color: black;
+}
 a{
-    
+    color:white;
+    margin:60px;
+    text-decoration:none;
 }
