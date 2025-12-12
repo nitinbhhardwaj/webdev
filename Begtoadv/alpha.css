@@ -4,13 +4,13 @@
 }
 #nav{
     background-color: black;
-    height:100px;
-    width:100px;
+    height:60px;
 }
 a{
     color:white;
     margin:60px;
     text-decoration:none;
+    font-size: 40px;
 }
 #amazon{
     color:orange;
