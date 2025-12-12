@@ -4,6 +4,8 @@
 }
 #nav{
     background-color: black;
+    height:100px;
+    width:100px;
 }
 a{
     color:white;
@@ -12,4 +14,7 @@ a{
 }
 #amazon{
     color:orange;
+}
+button{
+    background-color: orange;
 }
