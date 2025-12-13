@@ -7,6 +7,7 @@ div{
 #box1{
     background-color: rgba(0,0,255,0.2);
     position:static;
+    /* top right bottom left properties cannot be used */
 }
 #box2{
     background-color: rgba(0,0,255,0.3);
