@@ -6,12 +6,15 @@ div{
 }
 #box1{
     background-color: rgba(0,0,255,0.2);
+    position:static;
 }
 #box2{
     background-color: rgba(0,0,255,0.3);
+    position:relative;
 }
 #box3{
     background-color: rgba(0,0,255,0.6);
+    position:
 }
 #box4{
     background-color: rgba(0,0,255,0.8);
