@@ -1,6 +1,31 @@
 div{
     border:2px solid black;
 }
+#container{
+    height:200px;
+}
 #box1{
     background-color: aqua;
+    height:100px;
+    width:100px;
+}
+#box2{
+    background-color: pink;
+    height:100px;
+    width:100px;
+}
+#box3{
+    background-color: yellowgreen;
+    height:100px;
+    width:100px;
+}
+#box4{
+    background-color:coral;
+    height:100px;
+    width:100px;
+}
+#box5{
+    background-color: blueviolet;
+    height:100px;
+    width:100px;
 }
