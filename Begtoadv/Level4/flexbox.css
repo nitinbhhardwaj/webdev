@@ -11,7 +11,7 @@ div{
     height:200px;
     width:800px;
     display:flex;
-    flex-direction:row;
+    flex-direction:;
 }
 #box1{
     background-color: aqua;
