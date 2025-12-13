@@ -7,7 +7,7 @@ div{
 #box1{
 background-color: blue;
 top:35px;
-z-index:2;z
+z-index:-2;
 
 }
 #box2{
