@@ -10,6 +10,7 @@ div{
 #container{
     height:200px;
     width:800px;
+    display:flex;
 }
 #box1{
     background-color: aqua;
