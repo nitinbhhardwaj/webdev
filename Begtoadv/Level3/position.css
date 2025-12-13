@@ -14,6 +14,7 @@ div{
     position:relative;
     top:20px;
     left:30px;
+    /* top right bottom left properties can be used */
 }
 #box3{
     background-color: rgba(0,0,255,0.6);
