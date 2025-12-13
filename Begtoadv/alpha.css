@@ -27,10 +27,20 @@ button{
 #content{
     height:800px;
     background-color: rgba(209, 199, 199,0.5);
+    display:inline-block;
 }
 #footer{
     background-color: rgb(43, 39, 39);
     height:50px;
     color:white;
     text-align:center;
+}
+#box1{
+    background-color: blue;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: yellow;
 }
