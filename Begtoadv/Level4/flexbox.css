@@ -8,7 +8,7 @@ div{
     display:inline-block;
 }
 #container{
-    height:200px;
+    height:600px;
     width:600px;
     display:flex;
     flex-direction:row;
