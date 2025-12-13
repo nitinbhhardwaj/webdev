@@ -31,7 +31,7 @@ div{
 #box2{
     background-color: pink;
     height:200px;
-    flex-grow: 0;
+    flex-grow: 1;
 }
 #box3{
     background-color: yellowgreen;
