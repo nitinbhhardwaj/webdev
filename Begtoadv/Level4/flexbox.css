@@ -6,13 +6,10 @@ div{
     width:100px;
     border:2px solid black;
     display:inline-block;
-    position:relative;
-    top:0px;
-    left:250px;
 }
 #container{
     height:200px;
-    width:1000px;
+    width:800px;
 }
 #box1{
     background-color: aqua;
