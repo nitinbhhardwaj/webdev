@@ -18,5 +18,5 @@ z-index:1;
 #box3{
 background-color: rgba(0,255,0,0.5);
 right:40px;
-z-index:3;
+z-index:0.5;
 }
