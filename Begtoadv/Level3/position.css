@@ -25,10 +25,8 @@ div{
 }
 #box4{
     background-color: rgba(0,0,255,0.8);
-    width:100vh;
     position:fixed;
-    right:0px;
-    bottom:0px;
+    top:0px;
     /* It sets position according to the browser */
 
 }
