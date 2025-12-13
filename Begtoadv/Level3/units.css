@@ -1,7 +1,8 @@
 #box{
     height:200px;
     width:300px;
-    background-color: grey;;
+    background-color: grey;
+    font-size: 20px;
 }
 #box1,#box2{
     height:80px;
@@ -10,7 +11,9 @@
 }
 #box1{
     background-color:skyblue;
+    font-size:0.5em;
 }
 #box2{
     background-color: coral;
+    font-size:1.5em;
 }
