@@ -31,4 +31,6 @@ button{
 #footer{
     background-color: rgb(43, 39, 39);
     height:50px;
+    color:white;
+    text-align:center;
 }
