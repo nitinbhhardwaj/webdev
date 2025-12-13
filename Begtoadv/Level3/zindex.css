@@ -5,12 +5,16 @@ div{
     position:relative;
 }
 #box1{
-background-color: rgba(0,255,0,0.1);
+background-color: blue;
+top:35px;
+z-inde
 
 }
 #box2{
-background-color: rgba(0,255,0,0.3);
+background-color: red;
+bottom:10px;
 }
 #box3{
 background-color: rgba(0,255,0,0.5);
+bottom:40px;
 }
