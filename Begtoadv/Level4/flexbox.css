@@ -4,6 +4,7 @@ h1{
 div{
     border:2px solid black;
     display:flex;
+    margin:2px;
 }
 #container{
     height:200px;
