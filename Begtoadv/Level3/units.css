@@ -18,4 +18,5 @@
     background-color: coral;
     font-size:1.5em;
     /* In case of properties like width the font-size of the element changes with respect to itself */
+    /* rem(root em) depends on the font-size of root element like body , html */
 }
