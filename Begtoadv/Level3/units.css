@@ -12,8 +12,10 @@
 #box1{
     background-color:skyblue;
     font-size:0.5em;
+    /* 0.5 of parent's font-size */
 }
 #box2{
     background-color: coral;
     font-size:1.5em;
+    In case
 }
