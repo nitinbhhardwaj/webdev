@@ -27,8 +27,6 @@ button{
 #content{
     height:800px;
     background-color: rgba(209, 199, 199,0.5);
-    display:inline-block;
-    /* display:flex; */
 }
 #footer{
     background-color: rgb(43, 39, 39);
@@ -41,6 +39,7 @@ button{
     height:100px;
     width:100px;
     padding:40px;
+    display:inline-block;
 }
 #box2{
     background-color: green;
