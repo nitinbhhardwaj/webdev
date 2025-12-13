@@ -46,10 +46,12 @@ button{
     height:100px;
     width:100px;
     padding:40px;
+    display:inline-block;
 }
 #box3{
     background-color: yellow;
     height:100px;
     width:100px;
     padding:40px;
+    display:inline-block;
 }
