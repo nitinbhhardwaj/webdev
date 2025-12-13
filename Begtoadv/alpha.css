@@ -28,6 +28,7 @@ button{
     height:800px;
     background-color: rgba(209, 199, 199,0.5);
     display:inline-block;
+    /* display:flex; */
 }
 #footer{
     background-color: rgb(43, 39, 39);
