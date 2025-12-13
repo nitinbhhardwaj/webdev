@@ -19,7 +19,7 @@ div{
 #box3{
     background-color: rgba(0,0,255,0.6);
     /* position changes according to the closed position (non-static) ancestor (removed from the flow),here the ancestor is body tag */
-    position:absolute;
+    position:sticky;
     top:20px;
     left:30px;
 }
