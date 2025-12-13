@@ -1,3 +1,6 @@
-#container{
+div{
     border:2px solid black;
+}
+#box1{
+    background-color: aqua;
 }
