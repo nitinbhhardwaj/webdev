@@ -12,11 +12,13 @@ div{
     width:800px;
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:space-evenly;
     /* flex start means start of the parent div so In this case flex direction is row so it will start from left side already so there will be no change */
     /* flex end means it will align items to the right side of the parent div in case of row direction  */
     /* justify content align items horizontally */
     /* space around means equal space between the items and comparitively half space with the border*/
+    /* space between means equal space between the items but no space with the border */
+
 }
 #box1{
     background-color: aqua;
