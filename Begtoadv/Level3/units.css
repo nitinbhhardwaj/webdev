@@ -6,6 +6,7 @@
 #box1,#box2{
     height: 100px;
     width:60%;
+    margin:10%;
 }
 #box1{
     background-color:skyblue;
