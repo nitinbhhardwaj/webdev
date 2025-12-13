@@ -2,7 +2,7 @@ div{
     height:200px;
     width:200px;
     display:inline-block;
-    
+    position:relative;
 }
 #box1{
 background-color: rgba(0,255,0,0.1);
