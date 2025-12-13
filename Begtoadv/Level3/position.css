@@ -18,6 +18,7 @@ div{
 }
 #box3{
     background-color: rgba(0,0,255,0.6);
+    /* position changes according to the ancestor,here the ancestor is body tag */
 }
 #box4{
     background-color: rgba(0,0,255,0.8);
