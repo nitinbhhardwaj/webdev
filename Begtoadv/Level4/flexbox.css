@@ -1,5 +1,6 @@
 div{
     border:2px solid black;
+    display:flex;
 }
 #container{
     height:200px;
