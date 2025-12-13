@@ -9,10 +9,10 @@ div{
 }
 #container{
     height:200px;
-    width:800px;
+    width:600px;
     display:flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:center;
     flex-wrap:wrap;
     /* flex start means start of the parent div so In this case flex direction is row so it will start from left side already so there will be no change */
     /* flex end means it will align items to the right side of the parent div in case of row direction  */
