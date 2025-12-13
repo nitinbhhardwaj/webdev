@@ -34,24 +34,18 @@ button{
     color:white;
     text-align:center;
 }
-#box1{
-    background-color: blue;
-    height:100px;
+#box1,#box2,#box3{
+height:100px;
     width:100px;
     padding:40px;
     display:inline-block;
+}
+#box1{
+    background-color: blue;
 }
 #box2{
     background-color: green;
-    height:100px;
-    width:100px;
-    padding:40px;
-    display:inline-block;
 }
 #box3{
     background-color: yellow;
-    height:100px;
-    width:100px;
-    padding:40px;
-    display:inline-block;
 }
