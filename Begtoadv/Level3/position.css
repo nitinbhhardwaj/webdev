@@ -12,10 +12,11 @@ div{
 #box2{
     background-color: rgba(0,0,255,0.3);
     position:relative;
+    top:20px;
+    left:30px;
 }
 #box3{
     background-color: rgba(0,0,255,0.6);
-    position:
 }
 #box4{
     background-color: rgba(0,0,255,0.8);
