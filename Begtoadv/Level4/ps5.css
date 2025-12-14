@@ -4,6 +4,7 @@ ul{
    display:inline;
     display:flex;
     justify-content:space-evenly;
+    background-color: pink;
 } 
 a{
     text-decoration:none;
