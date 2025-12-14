@@ -6,6 +6,7 @@ div{
     transition-property:all;
     transition-duration:2s;
     transition-timing-function:ease-in;
+    transition-delayj
 }
 div:hover{
     background-color:yellow;
