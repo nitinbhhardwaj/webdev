@@ -5,7 +5,7 @@ div{
     border:2px solid black;
     transition-property:all;
     transition-duration:2s;
-    transition-timing-function:
+    transition-timing-function:step-start;
 }
 div:hover{
     background-color:yellow;
