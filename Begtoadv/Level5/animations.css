@@ -4,13 +4,13 @@ div{
     height:100px;
     border: 2px solid black;
     animation-name:colorAnimate;
-    animation-duration:0.4s;
+    animation-duration:2s;
     animation-timing-function:2px ;
     animation-iteration-count:infinite;
     animation-delay: 0s;
 }
 @keyframes colorAnimate{
-    from{left:0px}
+    from{left:0px;}
     to{left:100px};
 }
 div:hover{
