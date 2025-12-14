@@ -1,11 +1,12 @@
 div{
     background-color:pink;
-    display:flex;
-    justify-content:space-evenly;
+  
 }
 ul{
    list-style-type:none; 
    display:inline;
+     display:flex;
+    justify-content:space-evenly;
 } 
 a{
     text-decoration:none;
