@@ -10,7 +10,7 @@ div{
     animation-delay: 0s;
 }
 @keyframes colorAnimate{
-    from{background-color:red}
+    from{}
     to{background-color:blue};
 }
 div:hover{
