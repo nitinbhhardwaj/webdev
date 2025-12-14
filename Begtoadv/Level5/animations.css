@@ -11,7 +11,7 @@ div{
 }
 @keyframes colorAnimate{
     from{left:0px}
-    to{};
+    to{left:100px};
 }
 div:hover{
 animation-direction:reverse;
