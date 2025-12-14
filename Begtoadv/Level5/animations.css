@@ -5,7 +5,8 @@ div{
     border: 2px solid black;
 }
 @keyframes colorAnimate{
-    from{background-color}
+    from{background-color:red}
+    to{background-color:blue};
 }
 div:hover{
 
