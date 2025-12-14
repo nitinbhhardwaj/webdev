@@ -3,7 +3,7 @@ div{
     width:100px;
     height:100px;
     border: 2px solid black;
-    position:
+    position:absolute;
     animation-name:colorAnimate;
     animation-duration:0.25s;
     animation-timing-function:2s ;
