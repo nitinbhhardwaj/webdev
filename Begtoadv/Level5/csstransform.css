@@ -1,12 +1,12 @@
 div{
     background-color:green;
     position:absolute;
-    top:20px;
-    left:50px;
+    top:100px;
+    left:100px;
     height:200px;
     width:200px;
     border:2px solid black;
     /* transform:rotate(45deg); */
     /* rotate: y 90deg; */
-    transform:scale(3);
+    /* transform:scale(3); */
 }
