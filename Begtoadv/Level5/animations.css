@@ -17,6 +17,8 @@ div{
     background-color:blue
     ;
 }
-    to{left:100px;
-    background-color:red;}
+    to{
+        left:100px;
+    background-color:red;
+}
 }
