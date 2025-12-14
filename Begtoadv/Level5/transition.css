@@ -3,6 +3,7 @@ div{
     height:100px;
     width:100px;
     border:2px solid black;
+    transition-property:all;
 }
 div:hover{
     background-color:yellow;
