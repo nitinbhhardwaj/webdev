@@ -9,7 +9,7 @@ div{
 div:hover{
     background-color:yellow;
     color:green;
-    
+    font-size:20px;
 }
 div:active{
     background-color:black;
