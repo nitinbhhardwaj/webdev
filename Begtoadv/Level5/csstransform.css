@@ -11,5 +11,5 @@ div{
     transform:scale(0.5);
 }
 div:hover{
-    transform: translate
+    transform: translate(5);
 }
