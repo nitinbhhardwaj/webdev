@@ -1,5 +1,6 @@
 div{
     background-color:pink;
+    display:flex;
 }
 ul{
    list-style-type:none; 
