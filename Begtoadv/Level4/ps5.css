@@ -13,3 +13,7 @@ a{
     border:2px solid black;
     background-color:grey;
 }
+#inner{
+    border:2px solid black;
+    background-color:lightgrey;
+}
