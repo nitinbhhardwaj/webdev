@@ -14,6 +14,9 @@ a{
     background-color:grey;
     height:200px;
     width:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 #inner{
     border:2px solid black;
