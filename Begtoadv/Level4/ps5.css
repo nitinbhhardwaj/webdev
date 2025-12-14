@@ -5,6 +5,7 @@ div{
 }
 ul{
    list-style-type:none; 
+   display:inline;
 } 
 a{
     text-decoration:none;
