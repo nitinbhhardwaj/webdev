@@ -4,7 +4,7 @@ div{
     height:100px;
     border: 2px solid black;
     animation-name:colorAnimate;
-    animation-duration:2s;
+    animation-duration:0.25s;
     animation-timing-function:2px ;
     animation-iteration-count:infinite;
     animation-delay: 0s;
