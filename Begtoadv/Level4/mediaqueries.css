@@ -8,7 +8,7 @@ div{
         background-color:blue;
     }
 }
-@media(min-width:600px)and({
+@media(min-width:600px)and(max-width:800px){
     div{
         background-color:yellow;
     }
