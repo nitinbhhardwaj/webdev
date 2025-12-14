@@ -4,11 +4,11 @@ div{
     height:100px;
     border: 2px solid black;
     position:absolute;
-    animation-name:colorAnimate;
+    /* animation-name:colorAnimate;
     animation-duration:2s;
     animation-timing-function:2s ;
     animation-iteration-count:infinite;
-    animation-delay: 0s;
+    animation-delay: 0s; */
 }
 @keyframes colorAnimate{
     from{left:0px;}
