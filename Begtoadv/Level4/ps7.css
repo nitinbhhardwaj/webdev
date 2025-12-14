@@ -3,4 +3,4 @@ div{
     height:400px;
     width:400px;
 }
-@media{max-width}
+@media{max-width:300px}
