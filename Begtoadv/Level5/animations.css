@@ -12,9 +12,7 @@ div{
     animation:colorAnimate 2s ease-in  infinite normal;
 }
 @keyframes colorAnimate{
-    from{left:0px;}
+    from{left:0px;
+    background-color}
     to{left:100px};
-}
-div:hover{
-animation-direction:reverse;
 }
