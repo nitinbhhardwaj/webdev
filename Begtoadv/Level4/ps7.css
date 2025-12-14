@@ -3,4 +3,8 @@ div{
     height:400px;
     width:400px;
 }
-@media{max-width:300px}
+@media{max-width:300px}{
+    div{
+        background-color:red;
+    }
+}
