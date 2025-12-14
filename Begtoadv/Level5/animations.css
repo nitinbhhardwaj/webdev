@@ -7,6 +7,7 @@ div{
     animation-duration:4s;
     animation-timing-function:2px ;
     animation-iteration-count:infinite;
+    animation-delay: 1s;
 }
 @keyframes colorAnimate{
     from{background-color:red}
