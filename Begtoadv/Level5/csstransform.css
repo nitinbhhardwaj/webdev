@@ -3,7 +3,7 @@ div{
     margin:50px;
     height:200px;
     width:200px;
-    border:2px solid black;
+    border:10px solid black;
     /* transform:rotate(45deg); */
-    rotate: y 45deg;
+    rotate: y 90deg;
 }
