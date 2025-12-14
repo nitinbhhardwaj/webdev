@@ -8,5 +8,5 @@ div{
     border:2px solid black;
     /* transform:rotate(45deg); */
     /* rotate: y 90deg; */
-    transform:scale(3);
+    transform:scale(2);
 }
