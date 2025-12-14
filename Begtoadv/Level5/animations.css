@@ -13,6 +13,8 @@ div{
 }
 @keyframes colorAnimate{
     from{left:0px;
-    background-color}
-    to{left:100px};
+    background-color:blue;
+}
+    to{left:100px;
+    background-color:red;}
 }
