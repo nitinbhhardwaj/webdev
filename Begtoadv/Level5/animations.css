@@ -9,7 +9,7 @@ div{
     animation-timing-function:2s ;
     animation-iteration-count:infinite;
     animation-delay: 0s; */
-    animation:colorAnimate 2s ease-in  infinite
+    animation:colorAnimate 2s ease-in  infinite normal;
 }
 @keyframes colorAnimate{
     from{left:0px;}
