@@ -5,7 +5,7 @@ div{
     border: 2px solid black;
     animation-name:colorAnimate;
     animation-duration:0.25s;
-    animation-timing-function:2px ;
+    animation-timing-function:2s ;
     animation-iteration-count:infinite;
     animation-delay: 0s;
 }
