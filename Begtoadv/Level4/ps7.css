@@ -1,6 +1,6 @@
 div{
     background-color:blue;
-    height:400px;
+    height:100px;
     width:400px;
 }
 @media{max-width:300px}{
