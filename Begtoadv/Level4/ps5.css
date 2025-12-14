@@ -10,5 +10,6 @@ a{
     color:white;
 }
 #outer{
-    
+    border:2px solid black;
+    background-color:grey;
 }
