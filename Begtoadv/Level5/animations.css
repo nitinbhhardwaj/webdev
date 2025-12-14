@@ -12,8 +12,10 @@ div{
     animation:colorAnimate 2s ease-in  infinite normal;
 }
 @keyframes colorAnimate{
-    from{left:0px;
-    background-color:blue;
+    from{
+        left:0px;
+    background-color:blue
+    ;
 }
     to{left:100px;
     background-color:red;}
