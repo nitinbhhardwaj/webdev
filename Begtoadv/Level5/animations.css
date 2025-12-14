@@ -22,3 +22,15 @@ div{
     background-color:red;
 }
 } */
+ @keyframes colorAnimate{
+    from{
+        left:0px;
+    background-color:blue
+    ;
+}
+    to{
+        left:100px;
+    background-color:red;
+}
+}
+
