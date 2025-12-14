@@ -14,5 +14,5 @@ div{
     to{background-color:blue};
 }
 div:hover{
-
+animation-direction:reverse;
 }
