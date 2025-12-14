@@ -8,3 +8,8 @@ div{
         background-color:green;
     }
 }
+@media(min-width:300px){
+    div{
+        background-color:green;
+    }
+}
