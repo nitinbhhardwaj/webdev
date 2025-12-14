@@ -4,6 +4,9 @@ div{
     height:100px;
     border: 2px solid black;
     animation-name:colorAnimate;
+    animation-duration:4s;
+    animation
+    animation-iteration-count:infinite;
 }
 @keyframes colorAnimate{
     from{background-color:red}
