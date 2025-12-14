@@ -3,4 +3,6 @@
     width:100px;
     background-color:pink;
 }
-@media(width)
+@media(width=600px){
+    
+}
