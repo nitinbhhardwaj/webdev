@@ -3,7 +3,7 @@
     width:100px;
     background-color:pink;
 }
-@media(width=600px){
+@media(width:600px){
     div{
         background-color:blue;
     }
