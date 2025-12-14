@@ -1,7 +1,7 @@
 #container{
     background-color: black;;
 }
-a{
+div{
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
