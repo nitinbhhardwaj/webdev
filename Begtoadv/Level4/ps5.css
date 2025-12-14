@@ -4,6 +4,7 @@ div{
 ul{
    list-style-type:none; 
    display:flex;
+   backkground-color:lightblue;
    justify-content:space-evenly;
 }
 a{
