@@ -3,11 +3,12 @@ div{
     height:100px;
     width:100px;
     border:2px solid black;
-    transition-property:all;
+    /* transition-property:all;
     transition-duration:2s;
     transition-timing-function:ease-in;
-    transition-delay:2s;
+    transition-delay:2s; */
     /* transition shorthand: property|duration|timing-function|delay; */
+    transition:all 2s steps(3) 1s;
 }
 div:hover{
     background-color:yellow;
