@@ -10,6 +10,6 @@ div{
 }
 @media(min-width:300px)(max-width:400px){
     div{
-        background-color:green;
+        background-color:pink;
     }
 }
