@@ -8,3 +8,6 @@ div:hover{
     background-color:yellow;
     color:green;
 }
+div:active{
+    background-color
+}
