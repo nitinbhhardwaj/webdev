@@ -4,7 +4,7 @@ div{
     width:100px;
     border:2px solid black;
     transition-property:all;
-    transition-duration:
+    transition-duration:2ms;
 }
 div:hover{
     background-color:yellow;
