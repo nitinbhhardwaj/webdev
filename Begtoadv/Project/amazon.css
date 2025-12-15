@@ -21,6 +21,6 @@
 .border{
     border: 1.5px solid transparent;
 }
-border:hover{
-    border:2px solid white;
+.border:hover{
+    border:1.5px solid white;
 }
