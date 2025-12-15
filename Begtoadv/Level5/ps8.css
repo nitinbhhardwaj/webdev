@@ -1,8 +1,8 @@
 div{
     height:100px;
     width:100px;
-    border:20px solid #F7FFF7;
-    border-top:5px solid black;
+    border:20px solid #FFE66D;
+    border-top:5px solid #4ECDC4;
     border-radius:50%;
     animation-name:loading;;
 }
