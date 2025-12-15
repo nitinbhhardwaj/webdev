@@ -125,3 +125,8 @@ span {
     font-size: 0.9rem;
     font-weight:700;
 }
+
+/* hero section */
+.hero-section {
+    background-image:url("https://m.media-amazon.com/images/I/71SRwYaVx3L._SX3000_.jpg");
+}
