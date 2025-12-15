@@ -19,7 +19,7 @@
     width:100%;
 }
 .border{
-    border:2px solid transparent;
+    border: 1.5px solid transparent;
 }
 border:hover{
     border:2px solid white;
