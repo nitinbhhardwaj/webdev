@@ -108,10 +108,13 @@ span {
     display:flex;
     color:white;
     align-items:center;
-    
+    justify-content:space-evenly;
+
 }
 
 .panel-ops p{
     display: inline;
-    color:white;
+}
+.panel-ops {
+    width:70%;
 }
