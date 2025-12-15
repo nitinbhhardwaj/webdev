@@ -93,6 +93,7 @@ span {
 
 /* box 6 */
 .nav-cart {
+    font-size:35px;
     display:flex;
     align-items:center;
 }
