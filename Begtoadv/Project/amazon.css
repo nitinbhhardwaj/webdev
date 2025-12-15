@@ -8,6 +8,7 @@
     background-color: #0f1111;
     color:white;
     display:flex;
+    align-items:center;
 }
 .nav-logo{
     height:50px;
