@@ -91,4 +91,8 @@ span {
     font-weight:700;
 }
 
-box 6
+/* box 6 */
+.nav-cart {
+    display:flex;
+    align-items:center;
+}
