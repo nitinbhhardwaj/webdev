@@ -104,5 +104,11 @@ span {
 /* panel */
 .panel {
     height:40px;
-    background-color: ;
+    background-color:#222f3d ;
+    display:flex;
+}
+
+.panel-ops p{
+    display: inline;
+    color:white;
 }
