@@ -107,6 +107,8 @@ span {
     background-color:#222f3d ;
     display:flex;
     color:white;
+    align-items:center;
+    
 }
 
 .panel-ops p{
