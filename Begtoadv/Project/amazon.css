@@ -78,7 +78,9 @@
     border:none;
 }
 
-.nav
+.nav-search:hover {
+    
+}
 /* box 4 */
 span {
     font-size:0.7rem;
