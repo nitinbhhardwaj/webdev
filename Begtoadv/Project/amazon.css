@@ -9,6 +9,7 @@
     color:white;
     display:flex;
     align-items:center;
+    justify-content:space-evenly;
 }
 .nav-logo{
     height:50px;
