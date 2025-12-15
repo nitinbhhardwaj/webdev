@@ -141,7 +141,7 @@ span {
     align-items:center;
     justify-content: center;
     font-size:0.85rem;
-    position:
+    position:absolute;
 }
 .hero-msg {
     color:#007185;
