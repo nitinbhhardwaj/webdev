@@ -5,7 +5,10 @@ div{
     border-top:20px solid #4ECDC4; 
     border-radius:50%;
 }
-@keyframes spin{}
+@keyframes spin{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
 div:hover{
      transform:rotate(0deg);
         transition:rotate(360deg);
