@@ -45,5 +45,6 @@
 /* box 3 */
 .nav-search {
     display:flex;
-    width:
+    width:620px;
+    background-color:pink;
 }
