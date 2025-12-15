@@ -8,5 +8,6 @@ div{
 background-color:white;
 height:70px;
 width:70px;
+position:absolute;
 border-radius:50%;
 }
