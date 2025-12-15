@@ -1,7 +1,7 @@
 div{
     height:100px;
     width:100px;
-    border:20px solid
+    border:20px solid #F7FFF7;
     border-top:5px solid black;
     border-radius:50%;
     animation-name:loading;;
