@@ -7,5 +7,5 @@ div{
 }
 div:hover{
      transform:rotate(0deg);
-        transition:rotate;
+        transition:rotate();
 }
