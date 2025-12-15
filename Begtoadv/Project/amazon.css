@@ -137,5 +137,11 @@ span {
     background-color:white;
     color:black;
     height:40px;
-    align-items:flex-start;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:0.85rem;
+}
+.hero-msg {
+    color:#007185;
 }
