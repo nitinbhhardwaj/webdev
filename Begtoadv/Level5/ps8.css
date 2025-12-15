@@ -5,7 +5,7 @@ div{
     border-radius:50%;
     animation-name:loading;;
 }
-@keyframes
+@keyframes loading{}
 #hollow{
 background-color:white;
 height:70px;
