@@ -4,7 +4,7 @@ div{
      border:10px solid #FFE66D; 
     border-top:10px solid #4ECDC4; 
     border-radius:50%;
-    animation: spin 2s ease-in 0s infinite normal;
+    animation: spin 2s steps(3) 0s infinite normal;
 }
 @keyframes spin{
     from{transform:rotate(0deg);}
