@@ -1,8 +1,8 @@
 div{
     height:100px;
     width:100px;
-     border:20px solid #FFE66D; 
-    border-top:20px solid #4ECDC4; 
+     border:10px solid #FFE66D; 
+    border-top:10px solid #4ECDC4; 
     border-radius:50%;
     animation: spin 2s ease-in 0s infinite normal;
 }
