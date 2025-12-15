@@ -129,7 +129,7 @@ span {
 /* hero section */
 .hero-section {
     background-image:url("https://m.media-amazon.com/images/I/71SRwYaVx3L._SX3000_.jpg");
-    height:400px;
+    height:350px;
     background-size:cover;
     display:flex;
     justify-content:center;
