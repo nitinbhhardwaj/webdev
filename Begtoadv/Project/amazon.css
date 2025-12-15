@@ -162,8 +162,8 @@ span {
     height: 400px;
     width:23%;
     background-color:white;
+    padding: 20px 0px 15px;
 }
 .box img {
-    width:300px;
     height:300px;
 }
