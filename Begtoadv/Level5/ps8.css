@@ -6,5 +6,5 @@ div{
     border-radius:50%;
 }
 div:hover{
-     transform:ease-in-out;
+     transform:rotate;
 }
