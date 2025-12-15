@@ -168,5 +168,6 @@ span {
     height:300px;
 }
 .box-content {
-    margin-left:
+    margin-left:1rem;
+    margin-right:1rem;
 }
