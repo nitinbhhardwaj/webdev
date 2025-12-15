@@ -9,5 +9,9 @@ background-color:white;
 height:70px;
 width:70px;
 position:absolute;
+top:15px;
+left:15px;
+bottom:15px;
+right:15px;
 border-radius:50%;
 }
