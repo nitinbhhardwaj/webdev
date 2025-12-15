@@ -92,6 +92,10 @@ span {
 }
 
 /* box 6 */
-.nav-cart {
+.nav-cart i {
     font-size:30px;
+}
+
+.nav-cart {
+
 }
