@@ -137,5 +137,5 @@ span {
     background-color:white;
     color:black;
     height:40px;
-    align-items
+    align-items:flex-start;
 }
