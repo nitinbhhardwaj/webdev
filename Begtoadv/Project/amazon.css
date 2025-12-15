@@ -46,6 +46,7 @@
 .nav-search {
     display:flex;
     width:620px;
+    justify-content:;
     background-color:pink;
     height:40px;
     border-radius:4px;
