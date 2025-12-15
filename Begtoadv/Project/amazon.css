@@ -106,6 +106,7 @@ span {
     height:40px;
     background-color:#222f3d ;
     display:flex;
+    color:white;
 }
 
 .panel-ops p{
