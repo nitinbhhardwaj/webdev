@@ -5,7 +5,10 @@ div{
     border-radius:50%;
     animation-name:loading;;
 }
-@keyframes loading{}
+@keyframes loading{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
 #hollow{
 background-color:white;
 height:70px;
