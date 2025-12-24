@@ -1,0 +1,67 @@
+/* Table row background using attribute selectors */
+tr[class="read"] {
+  background-image: linear-gradient(to right, #c8e6c9, #a5d6a7);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(to right, #fff9c4, #fff59d);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(to right, #bbdefb, #90caf9);
+}
+
+/* All span elements inline-block */
+span {
+  display: inline-block;
+}
+
+/* Status styling for different rows */
+tr[class="to-read"] span.status {
+  border: 1px solid #fbc02d;
+  background-image: linear-gradient(#fffde7, #fff9c4);
+}
+
+tr[class="read"] span.status {
+  border: 1px solid #388e3c;
+  background-image: linear-gradient(#e8f5e9, #c8e6c9);
+}
+
+tr[class="in-progress"] span.status {
+  border: 1px solid #1976d2;
+  background-image: linear-gradient(#e3f2fd, #bbdefb);
+}
+
+/* Status and rate base size */
+span[class="status"],
+span[class^="rate"] {
+  height: 20px;
+  width: 70px;
+  padding: 4px;
+}
+
+/* Rating dots */
+span[class^="rate"] > span {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 2px;
+  height: 10px;
+  width: 10px;
+  background-color: lightgray;
+}
+
+/* One rating */
+span[class*="one"] > span:first-child {
+  background-image: linear-gradient(red, darkred);
+}
+
+/* Two rating */
+span[class*="two"] > span:nth-child(1),
+span[class*="two"] > span:nth-child(2) {
+  background-image: linear-gradient(orange, darkorange);
+}
+
+/* Three rating */
+span[class*="three"] > span {
+  background-image: linear-gradient(green, darkgreen);
+}
