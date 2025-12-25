@@ -16,7 +16,7 @@
 ---
 
 ### 🔗 Connect with me
-[![LinkedIn]([https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](REPLACE_WITH_YOUR_LINKEDIN_URL](https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit))
+[LinkedIn] https://www.linkedin.com/in/nitin-bhardwaj-8bb880395/
 
 ---
 Deployed project link= "https://nitinbhhardwaj.github.io/Sample-project-deploy/"
