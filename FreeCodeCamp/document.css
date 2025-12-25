@@ -1,68 +1,75 @@
-/* General Styling */
-span {
-    display: inline-block;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
 }
 
-/* Row Backgrounds using Attribute Selectors */
-tr[class="read"] {
-    background-image: linear-gradient(#f0f9ff, #cbebff);
+/* Navbar for Desktop (Left side) */
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid #ddd;
+    background-color: white;
 }
 
-tr[class="to-read"] {
-    background-image: linear-gradient(#fff9e6, #ffecb3);
-}
-
-tr[class="in-progress"] {
-    background-image: linear-gradient(#f0fff0, #d1ffd1);
-}
-
-/* Status Span Styling based on Row Class */
-tr[class="to-read"] span[class="status"] {
-    border: 1px solid #e6b800;
-    background-image: linear-gradient(#fff, #ffeb3b);
-}
-
-tr[class="read"] span[class="status"] {
-    border: 1px solid #007acc;
-    background-image: linear-gradient(#fff, #33adff);
-}
-
-tr[class="in-progress"] span[class="status"] {
-    border: 1px solid #2d862d;
-    background-image: linear-gradient(#fff, #4caf50);
-}
-
-/* Status and Rate Container Styling */
-span[class="status"], span[class^="rate"] {
-    height: 20px;
-    width: 80px;
-    padding: 2px;
+#navbar header {
+    font-size: 1.5rem;
+    margin: 10px;
+    font-weight: bold;
     text-align: center;
 }
 
-/* Inner Rating Circles */
-span[class^="rate"] > span {
-    border: 1px solid #555;
-    border-radius: 50%;
-    margin: 2px;
-    height: 12px;
-    width: 12px;
-    background-color: #eee;
+.nav-link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid #ddd;
 }
 
-/* Rating Logic using Word/Part Match Attribute Selectors */
-
-/* One Star: Target first descendant of .one */
-span[class~="one"] span:nth-of-type(1) {
-    background-image: linear-gradient(#ffcc00, #ff9900);
+.nav-link:hover {
+    background-color: #f4f4f4;
 }
 
-/* Two Stars: Target first two descendants of .two */
-span[class~="two"] span:nth-of-type(-n+2) {
-    background-image: linear-gradient(#ffcc00, #ff9900);
+/* Main Content Area */
+#main-doc {
+    margin-left: 310px;
+    padding: 20px;
 }
 
-/* Three Stars: Target all descendants of .three */
-span[class~="three"] span {
-    background-image: linear-gradient(#ffcc00, #ff9900);
+.main-section {
+    margin-bottom: 40px;
+}
+
+header {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+code {
+    display: block;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 2px solid #ddd;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
 }
