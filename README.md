@@ -19,13 +19,13 @@
 [LinkedIn] https://www.linkedin.com/in/nitin-bhardwaj-8bb880395/
 
 ---
-Deployed project link:
+### Deployed Project Links
 
-1)Amazon Page
-Deployed link:"https://nitinbhhardwaj.github.io/Sample-project-deploy/"
+1) **Amazon Page**  
+   🔗 https://nitinbhhardwaj.github.io/Sample-project-deploy/
 
-2)MyPortfolio	     
-Deployed link:"https://nitinbhhardwaj.github.io/MyPortfolio/"
+2) **My Portfolio**  
+   🔗 https://nitinbhhardwaj.github.io/MyPortfolio/
 
-3)Netflix Page 
-Deployed link:"https://nitinbhhardwaj.github.io/Netflix-Clone/"
+3) **Netflix Page**  
+   🔗 https://nitinbhhardwaj.github.io/Netflix-Clone/
