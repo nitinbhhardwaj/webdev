@@ -1,6 +1,6 @@
 # Hi there, I'm Nitin 👋
 
- 🚀 About Me
+🚀 About Me
 - 🎓 I am currently a **Student** with a passion for building clean web interfaces.
 - 💻 My current project is a **Portfolio Maker** to help others showcase their work.
 - 📚 I’m currently diving deep into **JavaScript** and exploring various **framework libraries**.
@@ -16,16 +16,22 @@
 ---
 
 ### 🔗 Connect with me
-[LinkedIn] https://www.linkedin.com/in/nitin-bhardwaj-8bb880395/
+- LinkedIn: https://www.linkedin.com/in/nitin-bhardwaj-8bb880395/
 
 ---
-### Deployed Project Links
+
+### 🚀 Deployed Project Links
 
 1) **Amazon Page**  
-   🔗 https://nitinbhhardwaj.github.io/Sample-project-deploy/
+🔗 https://nitinbhhardwaj.github.io/Sample-project-deploy/
 
 2) **My Portfolio**  
-   🔗 https://nitinbhhardwaj.github.io/MyPortfolio/
+🔗 https://nitinbhhardwaj.github.io/MyPortfolio/
 
 3) **Netflix Page**  
-   🔗 https://nitinbhhardwaj.github.io/Netflix-Clone/
+🔗 https://nitinbhhardwaj.github.io/Netflix-Clone/
+
+4) **Nitex Portfolio**  
+🔗 https://nitinbhhardwaj.github.io/Nitex/
+
+---
