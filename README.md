@@ -23,7 +23,7 @@
 ### 🚀 Deployed Project Links
 
 1) **Amazon Page**  
-🔗 https://nitinbhhardwaj.github.io/Sample-project-deploy/
+🔗 https://nitinbhhardwaj.github.io/Amazon/
 
 2) **My Portfolio**  
 🔗 https://nitinbhhardwaj.github.io/MyPortfolio/
