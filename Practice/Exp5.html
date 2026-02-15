@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Experiment 5
+        </title>
+    </head>
+    <body>
+        <h1 align="center">Hotel Room Booking Form</h1>
+        <form action="#" method="post" align="center">
+        <label for="name">Full Name: </label>
+        <input type="text" name="name" id="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" required><br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <label for="checkin">Check-In Date:</label>
+        <input type="date" id="checkin" name="checkin"><br><br>
+        <label for="checkout">Check-Out Date:</label>
+        <input type="date" name="checkout" id="checkout"><br><br>
+        <label for="room">Room Type:</label>
+       <select id="roomtype" name="roomtype">
+        <option value="single">Single room</option>
+        <option value="double">Double room</option>
+        <option value="triple">Triple room</option>
+       </select>
+        <br><br>
+        <label for="guests">Number of Guests: </label>
+        <select id="guests" name="guests">
+            <option value="1"> </option>
+            <option value="2">1</option>
+            <option value="3">2</option>
+        </select>
+        <br><br>
+        <label for="requests">Special Requests:</label><br>
+        <textarea id="requests" rols="8" cols="100"></textarea><br><br>
+        <input type="button" value="Book Now">
+        <input type="button" value="Reset form">
+        </form>
+    </body>
+</html>
