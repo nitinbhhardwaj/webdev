@@ -1,8 +1,17 @@
 div{
-    height:400px;
-    width:400px;
-    background-color: grey;
-    border-width:5px;
-    border-style:dotted;
-    border-color:aqua;
+    height:200px;
+    width:200px;
+    border:2px solid navy;
+}
+#div1{
+    border-radius:50%;
+     background-color:whitesmoke;
+}
+#div2{
+    border-radius:5px;
+     background-color:yellow;
+}
+#div3{
+    border-radius:20px;
+     background-color:grey;
 }
