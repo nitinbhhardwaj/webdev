@@ -1,3 +1,13 @@
+body{
+    background-color: black;
+}
 h1{
     color:grey;
+    background-color: green;
+}
+p{
+    color:red;
+}
+button{
+    color:blue;
 }
