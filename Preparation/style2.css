@@ -1,13 +1,16 @@
+*{
+    margin:0px;
+    padding:0px;
+}
 .nav{
     background-color:black;
-    margin:200px;
     height:60px;
     width:auto;
 }
 a{
     text-decoration:none;
     color:white;
-    margin:20px;
+    margin:125px;
 }
 #logo{
     font-size:25px;
