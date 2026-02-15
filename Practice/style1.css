@@ -1,0 +1,28 @@
+body{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.page {
+    background-color: grey;
+    padding: 20px;
+}
+.site {
+    height:700px;
+    width: 600px;
+    margin:auto;
+    background-color: white;
+    padding:20px;
+    border-radius: 10px;
+
+}
+.site img{
+    height:250px;
+    width: 300px;
+}
+.site button{
+    background-color:black;
+    color:white;
+}
+.price{
+    color:red;
+}
