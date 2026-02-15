@@ -1,3 +1,9 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:cursive;
+   
+}
 body{
     background-color: black;
 }
@@ -9,5 +15,5 @@ p{
     color:red;
 }
 button{
-    color:blue;
+    color:#ffff00;
 }
