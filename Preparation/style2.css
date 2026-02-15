@@ -1,25 +1,19 @@
-/* .nav{
+.nav{
     background-color:black;
-    height:200px;
-    width:auto;
-    padding:100px;
-
-}
-.nav img{
-    height:100px;
+    margin:200px;
+    height:60px;
     width:auto;
 }
 a{
     text-decoration:none;
     color:white;
+    margin:20px;
+}
+#logo{
+    font-size:25px;
+    color:#f08804;
+     text-decoration:none;
 }
 button{
-    background-color:orange;
-    color:white;
-} */
- div{
-    height:100px;
-    width:100px;
-    background-color:green;
-    border-radius:500px;
- }
+    background-color:#f08804;
+}
