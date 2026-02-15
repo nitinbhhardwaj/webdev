@@ -1,17 +1,25 @@
-div{
+/* .nav{
+    background-color:black;
     height:200px;
-    width:200px;
-    border:2px solid navy;
+    width:auto;
+    padding:100px;
+
 }
-#div1{
-    border-radius:50%;
-     background-color:whitesmoke;
+.nav img{
+    height:100px;
+    width:auto;
 }
-#div2{
-    border-radius:5px;
-     background-color:yellow;
+a{
+    text-decoration:none;
+    color:white;
 }
-#div3{
-    border-radius:20px;
-     background-color:grey;
-}
+button{
+    background-color:orange;
+    color:white;
+} */
+ div{
+    height:100px;
+    width:100px;
+    background-color:green;
+    border-radius:500px;
+ }
